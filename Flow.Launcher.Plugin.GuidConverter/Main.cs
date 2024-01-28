@@ -13,12 +13,12 @@ namespace Flow.Launcher.Plugin.GuidConverter
         /// <summary>
         /// Invalid String
         /// </summary>
-        public static Result InvalidString => new() { Title = "Bin3", SubTitle = "String is invalid or missing", IcoPath = ICON_PATH };
+        public static Result InvalidString => new() { Title = "Bindata3", SubTitle = "String is invalid or missing", IcoPath = ICON_PATH };
 
         /// <summary>
         /// Empty
         /// </summary>
-        public static Result Empty => new() { Title = "Bin3", SubTitle = "Please input a string", IcoPath = ICON_PATH };
+        public static Result Empty => new() { Title = "Bindata3", SubTitle = "Please input a string", IcoPath = ICON_PATH };
 
         /// <summary>
         /// Method Init
