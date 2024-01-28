@@ -1,0 +1,12 @@
+{
+  "ID": "27ad17d5-dacb-4732-9653-03def5f86125",
+  "ActionKeyword": "c",
+  "Name": "Guid Converter",
+  "Description": "a Guid Converter for FlowLauncher",
+  "Author": "N.Duong",
+  "Version": "1.1.1",
+  "Language": "csharp",
+  "Website": "https://github.com/NDiiong/Flow.Launcher.Plugin.GuidConverter.git",
+  "IcoPath": "Images/icon.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.GuidConverter.dll"
+}
