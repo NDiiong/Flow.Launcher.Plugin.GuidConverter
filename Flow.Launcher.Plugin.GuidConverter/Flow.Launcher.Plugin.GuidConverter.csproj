@@ -22,8 +22,6 @@
 
   <ItemGroup>
     <PackageReference Include="Flow.Launcher.Plugin" Version="4.0.0" />
-    <PackageReference Include="MongoDB.Driver.Core" Version="2.20.0" />
-    <PackageReference Include="MongoDB.Bson" Version=" 2.20.0" />
   </ItemGroup>
   
   <ItemGroup>
