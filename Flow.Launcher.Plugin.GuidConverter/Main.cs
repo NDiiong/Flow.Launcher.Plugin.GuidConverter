@@ -65,7 +65,7 @@ namespace Flow.Launcher.Plugin.GuidConverter
                         SubTitle = "Copy to clipboard",
                         Action = _ =>
                         {
-                            Clipboard.SetText(base64);
+                            Clipboard.SetText($"BinData(3, '{base64}')");
                             return true;
                         },
                         IcoPath = ICON_PATH
