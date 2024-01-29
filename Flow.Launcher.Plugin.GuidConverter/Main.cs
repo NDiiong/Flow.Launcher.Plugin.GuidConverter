@@ -49,7 +49,19 @@ namespace Flow.Launcher.Plugin.GuidConverter
                     var base64 = ConvertGuid2Bindata3(result);
                     results.Add(new Result
                     {
-                        Title = $"Bindata3: {base64}",
+                        Title = $"{base64}",
+                        SubTitle = "Copy to clipboard",
+                        Action = _ =>
+                        {
+                            Clipboard.SetText(base64);
+                            return true;
+                        },
+                        IcoPath = ICON_PATH
+                    });
+
+                    results.Add(new Result
+                    {
+                        Title = $"BinData(3, '{base64}')",
                         SubTitle = "Copy to clipboard",
                         Action = _ =>
                         {
@@ -64,7 +76,7 @@ namespace Flow.Launcher.Plugin.GuidConverter
                     var uuid = ConvertBindata2Guid(query.Search);
                     results.Add(new Result
                     {
-                        Title = $"Guid: {uuid}",
+                        Title = $"{uuid}",
                         SubTitle = "Copy to clipboard",
                         Action = _ =>
                         {
