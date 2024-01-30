@@ -1,6 +1,6 @@
 {
   "ID": "27ad17d5-dacb-4732-9653-03def5f86125",
-  "ActionKeyword": "c",
+  "ActionKeyword": "gc",
   "Name": "Guid Converter",
   "Description": "a Guid Converter for FlowLauncher",
   "Author": "N.Duong",
